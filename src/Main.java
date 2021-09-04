@@ -4,57 +4,36 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /* Operatory logiczne */
-        boolean a = true;
-        boolean b = false;
-        boolean c = true;
-        System.out.println("Operatory arytmetyczne:" +
-                "\na = true\tb = false\tc = true");
+        int zmienna = 7;
+        /* pojedynczy if, kod z wewnątrz if-a jest wykonywany tylko gdy warunek jest prawdziwy,
+         * w innym wypadku kod jest pomijany przez program */
+        if (zmienna <= 10) {
+            System.out.println("1) zmienna jest mniejsza od 10");
+        }
 
-        /* Iloczyn logiczny - AND */
-        System.out.println("a && b: " + (a && b)); // false
-        System.out.println("a && c: " + (a && c)); // true
+        /* konstrukcja else jest wykonywana tylko wtedy gdy wartość w if-ie jest nieprawdziwa,
+         * w innym wypadku kod z else-a jest pomijany */
+        if (zmienna > 10) {
+            System.out.println("2) zmienna jest wieksza od 10");
+        } else {
+            System.out.println("2) zmienna jest <= 10");
+        }
 
-        /* Różnica logiczna - OR */
-        System.out.println("a || b: " + (a || b)); // true
-        System.out.println("a || c: " + (a || c)); // true
-        System.out.println("false || b: " + (false || b)); // false
+        /* parametr trójargumentowy działa jak if else ale zapis w niektórych przypadkach
+         * jest bardziej estetyczny lub czytelny */
+        int wynik = (zmienna % 2 == 0) ? 0 : 1;
+        System.out.println("3) wynik: " + wynik);
 
+        /* Konstrukcja else if */
+        if (zmienna < 5) {
+            System.out.println("4) zmienna < 5");
+        } else if (zmienna > 15) {
+            System.out.println("4) zmienna > 15");
+        } else if (zmienna == 10) {
+            System.out.println("4) zmienna == 10");
+        } else {
+            System.out.println("5) wykonał sie else, zmienna > 5 i < 15 i !10");
+        }
 
-        /* zaprzeczenie  - NOT */
-        System.out.println("!a: " + !a); // false
-        System.out.println("!b: " + !b); // true
-
-        /* łączenie operatorów */
-        System.out.println("!(a && b): " + !(a && b)); // true
-        System.out.println("!((a && c) || (!a || b): " + !((a && c) || (!a || b))); // false
-
-        System.out.println();
-
-        /* Operatory porównania */
-        int x = 5;
-        int y = 7;
-        int z = 5;
-
-        /* \t - dodaje tabulator, \n - przeżuca kursor na początek nowej linii */
-        System.out.printf("Operatory porównania:" +
-                "\nx = %d\ty = %d\tz = %d\n", x, y, z);
-
-        /* porównanie */
-        System.out.println("x == y: " + (x == y)); // false
-        System.out.println("x == z: " + (x == z)); // true
-
-        /* nierówne */
-        System.out.println("x != y: " + (x != y)); // true
-        System.out.println("x != z: " + (x != z)); // false
-
-        /* pozostałe operatory */
-        System.out.println("x > y: " + (x > y)); // false
-        System.out.println("x < y: " + (x < y)); // true
-        System.out.println("y >= x: " + (y >= x)); // true
-
-        System.out.println("(x > y) || (a && b): " + ((x > y) || (a && c))); // true
-
-        /* zad.1 proszę dodać kilka złożonych operacji uzywając kilku operatorów */
     }
 }
