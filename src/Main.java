@@ -54,5 +54,7 @@ public class Main {
         System.out.println("y >= x: " + (y >= x)); // true
 
         System.out.println("(x > y) || (a && b): " + ((x > y) || (a && c))); // true
+
+        /* zad.1 proszę dodać kilka złożonych operacji uzywając kilku operatorów */
     }
 }
