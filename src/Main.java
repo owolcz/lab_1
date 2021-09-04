@@ -1,19 +1,21 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        /* Przykłady wyświetlania tekstu w konsoli */
-        System.out.println("Witaj świecie!");
-        System.out.println("Po jest nasz pierwszy program w języku java");
-        System.out.println("Życzę" + " " + "wam " + "miłej nauki!");
 
-        System.out.printf("A %s zaczynamy z %d przykładem.\n", "więc", 1);
+        /* ćw.2 */
 
-        System.out.print("To jest jakiś");
-        System.out.print(" tekst");
-        System.out.print(" nie za długi.");
+        /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
 
-//        ćw.1 napisać po kilka przykładów wypisywania tekstu w konsoli,
-//        Użyć każdej z opcji
+        /*
+        *    zad.2 Napisz kod który będzie wykonywał operacje: dodawania, odejmowania,
+        *    mnożenia, dziealenia i modulo na zmiennych:
+        *    a) liczbaA i liczbaB, dowolne liczby calkowite (int),
+        *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
+        *  */
+
+
 
     }
 }
