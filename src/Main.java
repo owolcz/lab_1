@@ -4,18 +4,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /* ćw.2 */
+        /* ćw.3 */
 
-        /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
-
-        /*
-        *    zad.2 Napisz kod który będzie wykonywał operacje: dodawania, odejmowania,
-        *    mnożenia, dziealenia i modulo na zmiennych:
-        *    a) liczbaA i liczbaB, dowolne liczby calkowite (int),
-        *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
-        *  */
+        /*  zad.1 napisać interfejs który bedzie słuzył do wpisania danych osobowych:
+        *   a) Imię, nazwisko, wiek, nr indeksu,
+        *   dane mają być wprowadzane z klawiatury w konsoli
+        *   b) wyświetlić dane za pomocą println i printf
+        */
 
 
+        /*  zad.2 zadeklarować 2 zmienne typu int i wykonać na nich obliczenia arytmetyczn (+, -, *, /, %)
+        *   wynik wyświetlić w konsoli programu
+        */
 
     }
 }
