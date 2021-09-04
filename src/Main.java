@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        int zmiennaInt = 7;
+        System.out.println("zmienna int = " + zmiennaInt);
         /* ćw.2 */
 
         /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
