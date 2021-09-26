@@ -11,6 +11,8 @@ public class Main {
         *   dane mają być wprowadzane z klawiatury w konsoli
         *   b) wyświetlić dane za pomocą println i printf
         */
+
+//      Zad.1 a)
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Podaj Imię: ");
@@ -22,8 +24,12 @@ public class Main {
         System.out.println("Podaj Wiek: ");
         int wiek = scan.nextInt();
 
-        System.out.println("Potwierdzenie danych: Imię =" + imie + " Nazwisko = " + nazwisko + " wiek = " + wiek );
-        System.out.printf("Twój imie to %s i naziwsko to %s oraz wiek to %d \n", imie, nazwisko, wiek);
+        System.out.println("Podaj Indeks: ");
+        int indeks = scan.nextInt();
+
+//      Zad.1 b)
+        System.out.println("Potwierdzenie danych: Imię = " + imie + " Nazwisko = " + nazwisko + " Wiek = " + wiek + " Indeks = " + indeks);
+        System.out.printf("Twój imie to %s i naziwsko to %s ,wiek to %d oraz nr indeksu: %d \n", imie, nazwisko, wiek, indeks);
 
 
 
@@ -32,6 +38,10 @@ public class Main {
         /*  zad.2 zadeklarować 2 zmienne typu int i wykonać na nich obliczenia arytmetyczn (+, -, *, /, %)
         *   wynik wyświetlić w konsoli programu
         */
+
+
+//      Zad.2
+
 
         int liczba1 = 5;
         int liczba2 = 11;
