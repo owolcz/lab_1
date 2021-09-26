@@ -24,9 +24,23 @@ public class Main {
         System.out.println("(y > z) && (4 > 5): " + ((y > z) && (4 > 5))); //false
         System.out.println("(y > z) && (8 > 5) : " + ((y > z) && 8 > 5)); //true
 
+
         System.out.println("(y > z) && (4 > 5): " + ((y > z) || (4 > 5))); //true
         System.out.println("(y > z) && (8 > 5) : " + ((y > z) || 8 > 5)); //true
-        System.out.println("(y < z) && (8 > 5) : " + ((y > z) || (8 > 5))); //false
+        System.out.println("(y < z) && (3 > 5) : " + (!(y < z) || (3 > 5))); //true
+        System.out.println("(y < z) && (3 > 5) : " + ((y < z) || (3 > 5))); //false
+
+        boolean d = ((y < z) || (3 > 5));
+        boolean e = ((y > z) || (4 > 5));
+        boolean f = (!(y < z) || (3 > 5));
+
+        System.out.println(f == e);
+
+
+
+
+
+
 
 
 
