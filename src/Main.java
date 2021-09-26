@@ -35,6 +35,7 @@ public class Main {
         boolean f = (!(y < z) || (3 > 5));
 
         System.out.println(f == e);
+        System.out.println(f == d);
 
 
 
