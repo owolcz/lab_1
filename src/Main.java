@@ -21,10 +21,17 @@ public class Main {
 
         System.out.println("x is " + x + " y is " + y + " z is " + z);
 
-        System.out.println((y > z) && (4 > 5));
-        System.out.println("!(a && b) : " + (y > z) && (8 > 5));
+        System.out.println("(y > z) && (4 > 5): " + ((y > z) && (4 > 5))); //false
+        System.out.println("(y > z) && (8 > 5) : " + ((y > z) && 8 > 5)); //true
 
-        System.out.println("!(a && b) : " + !(a && b));
+        System.out.println("(y > z) && (4 > 5): " + ((y > z) || (4 > 5))); //true
+        System.out.println("(y > z) && (8 > 5) : " + ((y > z) || 8 > 5)); //true
+        System.out.println("(y < z) && (8 > 5) : " + ((y > z) || !(8 > 5))); //false
+
+
+
+
+
 
 
 
