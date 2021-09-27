@@ -17,5 +17,6 @@ public class Main {
         System.out.print("Sama komenda print");
         System.out.print(" nie");
         System.out.print(" przeskakuje automatycznie do drugiej lini na końcu.");
-        System.out.print('\n Używamy do tego symbola '\n' " );
+        System.out.print("\nUżywamy do tego symbola \\n");
+}
 }
