@@ -12,14 +12,24 @@ public class Main {
 
 //        Zad.1
 
+
             int wiek = 22;
 
-            if(wiek % 3 == 0) ? "Podzielny przez 3"
+            if(wiek % 3 == 0)
+            {
+                System.out.println("Podzielny przez 3");
+            }
+            else
+            {
+                System.out.println("Niepodzielny przez 3");
+            }
 
 
 
 
         /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
+
+
 
 
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
