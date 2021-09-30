@@ -10,6 +10,14 @@ public class Main {
          * w innym wypadku "Niepodzielny przez 3" użyj kontrukcji if else
          * */
 
+//        Zad.1
+
+            int wiek = 22;
+
+            if(wiek % 3 == 0) ? "Podzielny przez 3"
+
+
+
 
         /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
 
