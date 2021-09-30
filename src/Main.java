@@ -12,22 +12,34 @@ public class Main {
 
 //        Zad.1
 
+        Scanner scan = new Scanner(System.in);
 
-            int wiek = 22;
+        System.out.println("Podaj Wiek: ");
+        int wiek = scan.nextInt();
+
+        System.out.println("Podaj Indeks: ");
+        int indeks = scan.nextInt();
+
+
 
             if(wiek % 3 == 0)
             {
-                System.out.println("Podzielny przez 3");
+                System.out.println("Wiek podzielny przez 3");
             }
             else
             {
-                System.out.println("Niepodzielny przez 3");
+                System.out.println("Wiek niepodzielny przez 3");
             }
 
 
 
 
         /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
+
+
+//         Zad.2
+
+            indeks()
 
 
 
