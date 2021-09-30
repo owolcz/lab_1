@@ -39,13 +39,33 @@ public class Main {
 
 //         Zad.2
 
-            indeks()
+            String parzystosc_indeksu = (indeks % 2 == 0) ? "Indeks parzysty" : "Indeks nie parzysty";
+            System.out.println(parzystosc_indeksu);
 
 
 
 
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
          * i stwórz konstrukcję else if z dowolnymi komunikatami */
+
+//        Zad.3
+
+
+        System.out.println("Podaj liczbę zmiennoprzecinkową: ");
+        float liczba = scan.nextFloat();
+
+        if (liczba < 10.5)
+        {
+            System.out.println("Liczba mniejsza 10,5");
+        }
+        else if(liczba == 10.5)
+        {
+            System.out.println("Liczba równa 10,5");
+        }
+        else
+        {
+            System.out.println("Liczba większa 10,5");
+        }
 
     }
 }
