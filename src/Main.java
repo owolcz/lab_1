@@ -28,6 +28,7 @@ public class Main {
         int indeks = scan.nextInt();
 
 //      Zad.1 b)
+        System.out.println("Zadanie numer 1: ");
         System.out.println("Potwierdzenie danych: Imię = " + imie + " Nazwisko = " + nazwisko + " Wiek = " + wiek + " Indeks = " + indeks);
         System.out.printf("Twój imie to %s i naziwsko to %s ,wiek to %d oraz nr indeksu: %d \n", imie, nazwisko, wiek, indeks);
 
@@ -42,6 +43,8 @@ public class Main {
 
 //      Zad.2
 
+
+        System.out.println("Zadanie numer 2: ");
 
         int liczba1 = 5;
         int liczba2 = 11;
