@@ -14,11 +14,13 @@ public class Main {
 //        Stworzenie tablicy:
         double[] tablica = new double[5];
 
-//        Przypisanie wartośći:
+//        Przypisanie wartości za pomocą petli for:
         for(int i=0; i< tablica.length; i ++)
+
         {
             tablica[i] = i + 1.52;
-            System.out.println("Kolejne liczby tablicy to: " + tablica[i]);
+
+            System.out.println("Kolejna liczba tablicy to: " + tablica[i]);
 
         }
 
@@ -30,7 +32,7 @@ public class Main {
         tablica2[3] = 13333.234234;
         tablica2[4] = 51253121.2324134234;
 
-
+        System.out.println("Tablica numer 2: ");
         System.out.println(tablica2[0]);
         System.out.println(tablica2[1]);
         System.out.println(tablica2[2]);
@@ -38,7 +40,14 @@ public class Main {
         System.out.println(tablica2[4]);
 
 //        Sposób c)
-        double[] tablica3 = {123.5};
+        double[] tablica3 = {123.5, 1231231123123.5, -12.6, 133.7, 42.0};
+
+        System.out.println("Tablica numer 3: ");
+        System.out.println(tablica3[0]);
+        System.out.println(tablica3[1]);
+        System.out.println(tablica3[2]);
+        System.out.println(tablica3[3]);
+        System.out.println(tablica3[4]);
 
     }
 }
